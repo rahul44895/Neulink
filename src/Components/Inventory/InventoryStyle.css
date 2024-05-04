@@ -1,0 +1,40 @@
+.local-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1em;
+  gap: 10px;
+}
+.local-card {
+  border: 2px solid #f4f4f5;
+  border-radius: 10px;
+  padding: 1em;
+  width: 20vw;
+  box-shadow: 1px 1px #f4f4f5;
+}
+
+.local-card:hover {
+  background-color: #f4f4f5;
+  transition: all 0.15s linear;
+  cursor: pointer;
+}
+.items-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid #f4f4f5;
+  margin-top: 10px;
+}
+.items-table .items-table-thead {
+  border: 2px solid #f4f4f5;
+}
+.items-table .items-table-thead td {
+  padding: 1em;
+}
+.items-table tbody td{
+  font-weight: 400;
+  padding: 0.5em 1em;
+}
+.items-table .medicine-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
